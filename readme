@@ -1,1 +1,13 @@
-Pneumonia Detection using Artificail Intelligence - Convolution Neural Network
+Pneumonia Detection using Artificail Intelligence - Convolution Neural Network:
+This repo has multiple models to read, learn and predict Pneumonia
+- VGG16
+- incpetion
+- MobileNet
+- Loading an external Covid Model
+
+All the above models have give very good Train and Validation Accuracy.
+Initially all the above models were constantly stuck at accuracy levels between 48-56% and just did not improve.
+We tried all the above model classes - and even tried models published by quite a few github repos.
+After tuning all the hyperparameters, we have started seeing higher levels of accuracy especially with MobileNet and IncpetionV3 models
+
+The bounding box of the affected parts of the lungs is modelled using MobileNet Regressor.
